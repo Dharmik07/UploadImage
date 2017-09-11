@@ -44,7 +44,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         
         let data = UIImageJPEGRepresentation(str!, 1)
         
-        let parameters = [Your perameters]
+        let parameters = ["key" : "Value"]
         
         let urlString = "API"
         

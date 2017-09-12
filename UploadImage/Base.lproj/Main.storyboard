@@ -44,6 +44,11 @@
                                 <rect key="frame" x="16" y="146" width="343" height="194"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Yu6-j1-bQE">
+                                <rect key="frame" x="152" y="208" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="g39-Gm-5ob">
                                 <rect key="frame" x="177" y="233" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -55,6 +60,9 @@
                     <navigationItem key="navigationItem" id="825-S2-7FT"/>
                     <connections>
                         <outlet property="ActivityIndicator" destination="g39-Gm-5ob" id="RtR-lK-v82"/>
+                        <outlet property="blurView" destination="Yu6-j1-bQE" id="VIF-Br-cri"/>
+                        <outlet property="btnSelect" destination="cBi-h7-oaq" id="0oD-Uj-Xyv"/>
+                        <outlet property="btnUpload" destination="Xeg-E1-BMA" id="3by-BK-usL"/>
                         <outlet property="img" destination="kGh-Bl-blk" id="wMJ-PD-klk"/>
                     </connections>
                 </viewController>
